@@ -28,7 +28,6 @@ if(isset($_POST['username'])){
 }
 ?>
 
-
 <html>
 <head>
 <title> Login Form </title>
