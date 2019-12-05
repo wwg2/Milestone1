@@ -11,7 +11,7 @@ mysql_select_db($db);
 
 if(isset($_POST['username'])){
 
-	$uname=$_POST['username']:
+	$uname=$_POST['username'];
 	$password=$_POST['password'];
 
 	$sql="select * from loginform where user='".$uname."'AND Pass='".$password."' limit 1"; 
@@ -22,7 +22,7 @@ if(isset($_POST['username'])){
 		exit();
 	}
 	else{
-		echo "You Have Entered Incorrect Details"
+		echo "You Have Entered Incorrect Details";
 		exit();
 	}
 }
